@@ -55,8 +55,8 @@ elif [[ "${release}" == "debian" ]]; then
         echo -e "${red} Please use Debian 11 or higher ${plain}\n" && exit 1
     fi
 elif [[ "${release}" == "almalinux" ]]; then
-    if [[ ${os_version} -lt 9 ]]; then
-        echo -e "${red} Please use Almalinux 9 or higher ${plain}\n" && exit 1
+    if [[ ${os_version} -lt 8 ]]; then
+        echo -e "${red} Please use Almalinux 8 or higher ${plain}\n" && exit 1
     fi
 elif [[ "${release}" == "rocky" ]]; then
     if [[ ${os_version} -lt 9 ]]; then
