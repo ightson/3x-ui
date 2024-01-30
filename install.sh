@@ -1,4 +1,4 @@
-#!/bin/bash
+Fl#!/bin/bash
 
 red='\033[0;31m'
 green='\033[0;32m'
@@ -60,8 +60,8 @@ elif [[ "${release}" == "debian" ]]; then
     fi
 
 elif [[ "${release}" == "almalinux" ]]; then
-    if [[ ${os_version} -lt 9 ]]; then
-        echo -e "${red} Please use AlmaLinux 9 or higher ${plain}\n" && exit 1
+    if [[ ${os_version} -lt 8 ]]; then
+        echo -e "${red} Please use AlmaLinux 8 or higher ${plain}\n" && exit 1
     fi
 
 elif [[ "${release}" == "rocky" ]]; then
