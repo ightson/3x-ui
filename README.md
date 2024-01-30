@@ -13,14 +13,14 @@
 **If this project is helpful to you, you may wish to give it a**:star2:
 
 <a href="#">
-  <img width="125" alt="image" src="https://github.com/MHSanaei/3x-ui/assets/115543613/7aa895dd-048a-42e7-989b-afd41a74e2e1.jpg"></a>
+  <img width="125" alt="image" src="https://github.com/ightson/3x-ui/assets/115543613/7aa895dd-048a-42e7-989b-afd41a74e2e1.jpg"></a>
 
 - USDT (TRC20): `TXncxkvhkDWGts487Pjqq1qT9JmwRUz8CC`
 
 ## Install & Upgrade
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/ightson/3x-ui/master/install.sh)
 ```
 
 ## Install Custom Version
@@ -28,7 +28,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.
 To install your desired version, add the version to the end of the installation command. e.g., ver `v2.1.2`:
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh) v2.1.2
+bash <(curl -Ls https://raw.githubusercontent.com/ightson/3x-ui/master/install.sh) v2.1.2
 ```
 
 ## SSL Certificate
@@ -70,7 +70,7 @@ certbot renew --dry-run
 ```sh
 ARCH=$(uname -m)
 [[ "${ARCH}" == "aarch64" || "${ARCH}" == "arm64" ]] && XUI_ARCH="arm64" || XUI_ARCH="amd64"
-wget https://github.com/MHSanaei/3x-ui/releases/latest/download/x-ui-linux-${XUI_ARCH}.tar.gz
+wget https://github.com/ightson/3x-ui/releases/latest/download/x-ui-linux-${XUI_ARCH}.tar.gz
 ```
 
 2. Once the compressed package is downloaded, execute the following commands to install or upgrade x-ui:
@@ -108,7 +108,7 @@ systemctl restart x-ui
 2. Clone the Project Repository:
 
    ```sh
-   git clone https://github.com/MHSanaei/3x-ui.git
+   git clone https://github.com/ightson/3x-ui.git
    cd 3x-ui
    ```
 
@@ -161,7 +161,7 @@ remove 3x-ui from docker
 - Arch Linux
 - Manjaro
 - Armbian
-- AlmaLinux 9+
+- AlmaLinux 8+
 - Rockylinux 9+
 
 ## Compatible Architectures & Devices
